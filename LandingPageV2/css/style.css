@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'bentonsansextracompbold';
+    font-family: 'bentonsansextracompbold', arial;
     src: url('font/bentonsansextracomp-bold-webfont.woff2') format('woff2'),
          url('font/bentonsansextracomp-bold-webfont.woff') format('woff');
     font-weight: normal;
@@ -217,7 +217,7 @@ li.selected .nav_desc
 .content-header h1
 {
     margin-left: 30px;
-    font-family: 'BentonSansExtraCompBold';  
+    font-family: 'bentonsansextracompbold', arial;  
     font-size: 40px;
     text-transform: uppercase;
     color: white;    
