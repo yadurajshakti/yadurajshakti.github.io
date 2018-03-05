@@ -21,6 +21,7 @@
     font-family: BentonSansExtraCompBold;
     src: url('../../font/BentonSansExtraComp-Bold.otf');
 }
+
 .wrapper
 {    
     margin: 0px;
@@ -72,7 +73,7 @@ ul li a:hover, ul li a:visited
 .nav_title
 {
     width: 100%;
-    font-family: 'BentonSansBold';
+    font-family: 'BentonSansBold', arial;
     font-size:13.5px;  
     text-transform: uppercase;
     color: white;
@@ -83,7 +84,7 @@ ul li a:hover, ul li a:visited
     width: 100%;
     float: left;
     clear: both;
-    font-family: 'BentonSansLight';
+    font-family: 'BentonSansLight', arial;
     font-size: 12px;            
     color: whitesmoke;   
 }
@@ -122,8 +123,8 @@ li.selected .nav_desc
 
 .banner-cta h1
 {
-    font-family: 'BentonSansExtraCompBold';  
-    font-size:40px;  
+    font-family: 'BentonSansExtraCompBold', arial;  
+    font-size:23px;  
     text-transform: uppercase;
     color: white;
     margin-top: 90px;
