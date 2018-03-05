@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'bentonsansextracompbold', arial;
+    font-family: 'bentonsansextracompbold';
     src: url('font/bentonsansextracomp-bold-webfont.woff2') format('woff2'),
          url('font/bentonsansextracomp-bold-webfont.woff') format('woff');
     font-weight: normal;
@@ -152,7 +152,7 @@ li.selected .nav_desc
 .banner-cta
 {
     color: white;    
-    font-family: 'BebasNeueBold';  
+    font-family: 'bentonsansbold';  
     margin-left: 685px;
 }
 
