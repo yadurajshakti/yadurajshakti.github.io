@@ -1,0 +1,350 @@
+*,html,body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face
+{
+    font-family: BentonSansBold;
+    src: url('../../font/BentonSans-Bold.otf');
+}
+
+@font-face
+{
+    font-family: BentonSansLight;
+    src: url('../../font/BentonSans-Light.otf');
+}
+
+@font-face
+{
+    font-family: BentonSansExtraCompBold;
+    src: url('../../font/BentonSansExtraComp-Bold.otf');
+}
+.wrapper
+{    
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+header
+{
+    background-color:  #002663;
+    height:50px;     
+}
+
+header nav
+{
+    margin-left: 415px;
+}
+
+ul
+{
+    list-style-type: none;   
+    display: flex;
+}
+
+ul li a:hover, ul li a:visited
+{
+    text-decoration: none;
+    outline-style: none; 
+}
+
+.nav-item
+{
+    width: 160px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.nav-link
+{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    height:50px;
+    padding-top:9px;
+}
+
+.nav_title
+{
+    width: 100%;
+    font-family: 'BentonSansBold';
+    font-size:13.5px;  
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav_desc
+{
+    width: 100%;
+    float: left;
+    clear: both;
+    font-family: 'BentonSansLight';
+    font-size: 12px;            
+    color: whitesmoke;   
+}
+
+.selected
+{
+    background-color: whitesmoke; 
+}
+
+li.selected .nav_title
+{
+    color: darkblue;
+}
+
+li.selected .nav_desc
+{
+    color: #5f5f62;    
+    font-weight: bold;
+}
+
+
+/* banner section*/
+.custom-container
+{
+    padding: 0;
+    margin: 0; 
+}
+
+.img-banner
+{
+    background-image: url('../img/banner1.jpg');
+    width: 1351px;
+    height: 453px;
+
+}
+
+.banner-cta h1
+{
+    font-family: 'BentonSansExtraCompBold';  
+    font-size:40px;  
+    text-transform: uppercase;
+    color: white;
+    margin-top: 90px;
+    margin-left: 36px;
+    width: 338px;
+    height: 75px;
+    text-align: center;
+    font-style: normal;
+    line-height:32px; 
+    transform: scale(1, 1.15);
+    -webkit-transform: scale(1, 1.15); /* Safari and Chrome */
+    -moz-transform: scale(1, 1.15); /* Firefox */
+    -ms-transform: scale(1, 1.15); /* IE 9+ */
+    -o-transform: scale(1, 1.15); /* Opera */
+}
+
+.banner-cta
+{
+    color: white;    
+    font-family: 'BebasNeueBold';  
+    margin-left: 685px;
+}
+
+.banner-cta .blue-trans
+{
+    width: 452px;    
+    height: 186px;    
+    background-color: #06285d;
+    opacity: 0.8;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    position:absolute;
+    font-family: Arial, sans-serif;
+
+}
+
+.banner-cta p
+{    
+    font-size: 15px;
+    font-style: normal;
+}
+
+.button
+{    
+    font-family: Arial, sans-serif;
+    clear: both;
+    position: absolute;
+    margin-top:140px;
+    margin-left:20px;
+}
+
+.button a, .button a:hover
+{
+    color: white;    
+    text-decoration: none;  
+    font-size: 11px;
+    width: 120px;
+    height: 28px;
+    position: absolute;
+}
+
+.content
+{
+    margin: 0;
+    padding: 0;
+}
+.content-img
+{
+    background-image: url('../img/content-img.jpg');
+    width: 1351px;
+    height: 450px;
+}
+
+.content-box
+{
+    margin: 50;
+    padding: 20;
+    clear: both;
+}
+
+.content-header h1
+{
+    margin-left: 30px;
+    font-family: 'BentonSansExtraCompBold';  
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;    
+}
+.content-header p
+{
+    margin-left: 30px;
+    font-family: Arial, sans-serif;    
+    font-size: 15px;
+    color: white;
+}
+
+.event-guide-panel
+{
+    padding-left: 20px;
+}
+
+.guide-buttons
+{
+    width: 100%;
+    margin-left: 20px;
+}
+ul.guide-buttons li:first-child span
+{
+    word-wrap:break-word;
+    display:table-cell;
+    vertical-align:bottom;
+    height: 110px
+}
+
+ul.guide-buttons li span
+{
+    word-wrap:break-word;
+    width:150px;
+    height: 50px;
+    font-family: Arial, sans-serif; 
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    display:table-cell;
+    vertical-align:bottom;
+}
+
+
+ul.guide-buttons li img
+{
+    text-align: center;
+    margin-top: 15px;
+}
+
+ul.guide-buttons li.active span
+{
+    color: skyblue;    
+}
+
+/*
+ul.guide-buttons li.active
+{
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;  
+    border-top: 15px solid black;
+    opacity: 0.6;
+}
+*/
+
+.guide-content-bg
+{    
+    background-color: black;
+    opacity: 0.6;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 190px;
+    width: 100%;
+    margin-left: 20px;
+    padding:  20px 20px;
+}
+
+.guide-body
+{   
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: white;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.guide-footer span
+{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.guide-footer p
+{
+    font-weight: normal;
+}
+.guide-footer button.btn-info
+{
+    color: white;    
+    text-decoration: none;  
+    font-size: 12px;
+    width: 120px;
+    height: 28px;
+    margin-left: 45px;
+    text-transform: none;
+    z-index: 2;
+}
+
+/*footer*/
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 52px;
+    background-color: #002663;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+footer p
+{
+    text-transform: uppercase;
+}
+
+footer a.btn-info, footer a:hover
+{
+    color: white;    
+    text-decoration: none;  
+    font-size: 11px;
+    width: 120px;
+    height: 28px;
+    margin-left: 20px;
+    text-transform: none;
+}
+
