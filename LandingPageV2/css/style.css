@@ -4,10 +4,13 @@
     margin: 0px;
 }
 
-@font-face
-{
-    font-family: BentonSansBold;
-    src: url('../LandingPageV2/font/BentonSans-Bold.otf');
+@font-face {
+    font-family: 'bentonsansbold';
+    src: url('font/bentonsans-bold-webfont.woff2') format('woff2'),
+         url('font/bentonsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face
