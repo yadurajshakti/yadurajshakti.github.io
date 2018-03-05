@@ -7,7 +7,7 @@
 @font-face
 {
     font-family: BentonSansBold;
-    src: url('../../font/BentonSans-Bold.otf');
+    src: url('../../font/BentonSans-Bold.pfm');
 }
 
 @font-face
@@ -19,7 +19,7 @@
 @font-face
 {
     font-family: BentonSansExtraCompBold;
-    src: url('../../font/BentonSansExtraComp-Bold.otf');
+    src: url('../../font/BentonSansExtraComp-Bold.pfm');
 }
 .wrapper
 {    
