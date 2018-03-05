@@ -7,19 +7,19 @@
 @font-face
 {
     font-family: BentonSansBold;
-    src: url('https://yadurajshakti.github.io/LandingPageV2/font/BentonSans-Bold.otf');
+    src: url('../font/BentonSans-Bold.otf');
 }
 
 @font-face
 {
     font-family: BentonSansLight;
-    src: url('../../font/BentonSans-Light.otf');
+    src: url('../font/BentonSans-Light.otf');
 }
 
 @font-face
 {
     font-family: BentonSansExtraCompBold;
-    src: url('../../font/BentonSansExtraComp-Bold.otf');
+    src: url('../font/BentonSansExtraComp-Bold.otf');
 }
 
 .wrapper
@@ -124,7 +124,7 @@ li.selected .nav_desc
 .banner-cta h1
 {
     font-family: 'BentonSansExtraCompBold', arial;  
-    font-size:23px;  
+    font-size:40px;  
     text-transform: uppercase;
     color: white;
     margin-top: 90px;
