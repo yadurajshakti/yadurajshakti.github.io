@@ -1,1 +1,72 @@
-Work in progress
+<!DOCTYPE html>
+<html>
+<style>
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+    }
+
+    .bgimg {
+        
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
+        background-color: black;
+        background-image: radial-gradient(white, rgba(255, 255, 255, .2) 2px, transparent 40px),
+        radial-gradient(white, rgba(255, 255, 255, .15) 1px, transparent 30px),
+        radial-gradient(white, rgba(255, 255, 255, .1) 2px, transparent 40px),
+        radial-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .1) 2px, transparent 30px);
+        background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+        background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    }
+
+    .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
+    }
+
+    .bottomleft {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+    }
+
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    hr {
+        margin: auto;
+        width: 40%;
+    }
+</style>
+
+<body>
+
+    <div class="bgimg">
+        <div class="topleft">
+            <p>My Personal Website...</p>
+        </div>
+        <div class="middle">
+            <h1>COMING SOON</h1>
+            <hr>
+        </div>
+        <div class="bottomleft">
+            <p>Visit my linkedin profile: <a href="https://www.linkedin.com/in/yaduraj" /> Yaduraj Shakti</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
